@@ -1,3 +1,7 @@
+> 🧪 **实测**：两个版本之间没有任何差异，最起码我体感是这样子的，感觉这个项目没啥用 XD。
+
+🌐 [简体中文](README.md) | [English](README_EN.md) | [Русский](README_RU.md)
+
 # PICO 体感追踪器 固件工具（升级 / 降级）
 
 > ⚠️ 非官方项目，仅供学习研究。固件版权归 PICO 所有，操作风险自负。
@@ -66,13 +70,6 @@ adb shell su -c "sh /data/local/tmp/keep_awake.sh off"
 - **刷完追踪器不见了？** 它在重启，1–2 分钟后回来（`check.sh` 可看状态）
 - **固件来源**：sv1.89 = PICO 4 系统自带 `/system/etc/trackerbin/`；sv1.91 提取自 PICO 4 Ultra 系统组件包
 - **注意**：P4 官方线目前仍带 sv1.89，1.91 属 Ultra 同代；升级后如需回退按上面"降级"即可
-
-## English summary
-
-Unofficial toolkit for updating / downgrading PICO Motion Tracker firmware on PICO 4,
-built around the stock `tracker_test` utility. Verified on a real device: upgrade
-(TR0189 → TR0191) and **downgrade** both work. Keep the headset awake while flashing
-(`tools/keep_awake.sh`). See `docs/` for the full test log.
 
 ## 免责声明
 
